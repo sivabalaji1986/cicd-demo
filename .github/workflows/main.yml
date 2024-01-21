@@ -23,7 +23,7 @@ jobs:
     - name: Set up JDK 20
       uses: actions/setup-java@v3
       with:
-        java-version: '17'
+        java-version: '20'
         distribution: 'temurin'
         cache: maven
     - name: Run Test with Maven
@@ -36,7 +36,7 @@ jobs:
     - name: Set up JDK 20
       uses: actions/setup-java@v3
       with:
-        java-version: '17'
+        java-version: '20'
         distribution: 'temurin'
         cache: maven
     - name: Cache SonarCloud packages
